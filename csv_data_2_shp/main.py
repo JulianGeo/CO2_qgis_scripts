@@ -1,6 +1,5 @@
 from csv_data_2_shp import convert_csv_2_shp
 
-
 new_shape = convert_csv_2_shp(
     'C:/Gis/data.csv', 
     'C:/Gis/GIS_Backup/DATA/data',
