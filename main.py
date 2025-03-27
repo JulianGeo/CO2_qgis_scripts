@@ -18,7 +18,7 @@ new_shape = convert_csv_2_shp(
 )
 
 
-layer = iface.addVectorLayer(new_shape, '', 'ogr')
+layer = iface.addVectorLayer(new_shape, data_type, 'ogr')
 
 
 if data_type == 'TERMALES':
